@@ -1,0 +1,12 @@
+[submodule "AdminApp"]
+	path = AdminApp
+	url = ./AdminApp
+[submodule "ClientApp"]
+	path = ClientApp
+	url = ./ClientApp/
+[submodule "RestApiApp"]
+	path = RestApiApp
+	url = ./RestApiApp
+[submodule "RestApiApp.Tests"]
+	path = RestApiApp.Tests
+	url = ./RestApiApp.Tests/

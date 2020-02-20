@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+    restapiapp:
+        ports:
+            - "80"
+
+networks:
+    default:
+        external:
+            name: nat

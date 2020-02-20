@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+    restapiapp:
+        image: ${DOCKER_REGISTRY-}restapiapp
+        build:
+            context: ./RestApiApp
+            dockerfile: Dockerfile
